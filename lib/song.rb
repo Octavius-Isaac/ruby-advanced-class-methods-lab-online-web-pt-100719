@@ -15,4 +15,8 @@ class Song
     song.save 
     song 
   end 
+  
+  def new_by_name
+    new_by_name = :name 
+  end 
 end
